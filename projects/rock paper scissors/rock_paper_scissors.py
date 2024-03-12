@@ -16,7 +16,7 @@ import random
 
 print('1) ✊ rock')
 print('2) ✋ paper')
-print('3) ✌️  scissor')
+print('3) ✌️  scissors')
 print('     ')
 
 # player + computer choices
@@ -35,24 +35,24 @@ if player == computer:
     print('thanks for playing c:')
 elif player == 1:
     if computer == 3:
-        print('rock beats scissor, you win c:')
+        print('rock breaks scissors, you win c:')
         print('thanks for playing!')
     elif computer == 2:
-        print('paper beats rock, you lose :c')
+        print('paper covers rock, you lose :c')
         print('thanks for playing!')
 elif player == 2:
     if computer == 1:
-        print('paper beats rock, you win c:')
+        print('paper covers rock, you win c:')
         print('thanks for playing!')
     elif computer == 3:
-        print('scissor beats paper, you lose :c')
+        print('scissors cuts paper, you lose :c')
         print('thanks for playing!')
 elif player == 3:
     if computer == 2:
-        print('scissor beats paper, you win c:')
+        print('scissors cuts paper, you win c:')
         print('thanks for playing!')
     elif computer == 1:
-        print('rock beats scissor, you lose :c')
+        print('rock breaks scissors, you lose :c')
         print('thanks for playing!')
 else:
     print("let's try again with a number between 1-3 c:")
